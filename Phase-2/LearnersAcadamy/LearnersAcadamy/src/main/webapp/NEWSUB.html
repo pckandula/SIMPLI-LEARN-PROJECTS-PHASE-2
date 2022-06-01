@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PRAJVAL BHALE</title>
+</head>
+<style type="text/css">
+
+.body {
+	border:1px solid green;
+	border-radius:10px;
+	padding-top: 20px;
+	padding : 20px;
+	max-width: 300px; 
+  	margin: auto;
+}
+
+.btn {
+	padding: 1% 3%;
+}
+
+.h{
+	max-width: 290px;
+	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	color: green;
+}
+
+.main{
+	background-color: #FFFAFA;
+}
+
+</style>
+
+<body class="main">
+<hr>
+<h3 class="h">ADD SUBJECT RECORD HERE</h3>
+
+<div class="body">
+
+<form action="NewSubINSERT" method="POST">
+
+<b>SUBJECT ID </b><br> 
+<input type="number" name="subid" required="required"><br><br>
+
+<b>SUBJECT CODE</b><br>
+<input type="text" name="subcode" required="required"><br><br>
+
+<b>SUBJECT NAME</b><br> 
+<input type="text" name="subname" required="required"><br><br>
+
+<b>ASSIGN TO CLASS</b><br> 
+<input type="text" name="classname" required="required"><br><br>
+
+<button class="btn" type="submit">Save</button>
+</form>
+</div>
+</body>
+</html>
